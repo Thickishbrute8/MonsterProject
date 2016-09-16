@@ -21,18 +21,33 @@ public class MonsterController
 //			System.out.println("Thats a lot of eyes!!!!! - Scary");
 //		}
 		
-		System.out.println("Do you want to change my name?");
+		
+//		System.out.println("Do you want to change my name?");
+//		String answer = keyboardInput.nextLine();
+//		
+//		if (answer.equalsIgnoreCase ("yes"))		{
+//			System.out.println("what do you want my name to be?");
+//			String newName = keyboardInput.nextLine();
+//			firstMonster.setName(newName);
+//		}
+//		else
+//		{
+//			System.out.println("Fine, dont change my name!!! >:(");
+//		}
+//		System.out.println(firstMonster);
+//		}
+		
+		System.out.println("What is my name again?");
 		String answer = keyboardInput.nextLine();
 		
-		if (answer.equalsIgnoreCase ("yes"))		{
-			System.out.println("what do you want my name to be?");
-			String newName = keyboardInput.nextLine();
-			firstMonster.setName(newName);
-		}
-		else
+		if (answer.equalsIgnoreCase ("Jimbo"))
 		{
-			System.out.println("Fine, dont change my name!!! >:(");
+			System.out.println("Oh yeah thats right its Jimbo!");
 		}
-		System.out.println(firstMonster);
+		else 
+		{
+			System.out.println("Will I ever know my real name? :(");
 		}
+//		System.out.println(firstMonster);
+}
 	}
