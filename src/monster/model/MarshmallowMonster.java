@@ -39,4 +39,67 @@ public class MarshmallowMonster
 		String description = "Name is " + this.name;
 		return description; 
 	}
+	
+	public String getName()
+	{
+		return name;	
+	}
+	
+	public int getEyeCount()
+	{
+		return eyeCount;
+	}
+	
+	public double antennaCount()
+	{
+		return antennaCount;
+	}
+	
+	public boolean hasBellyButton()
+	{
+		return hasBellyButton;
+	}
+	
+	public int armCount()
+	{
+		return armCount;
+	}
+	
+	public int noseCount()
+	{
+		return noseCount;
+	}
+
+	public void setName(String name)
+	{
+		this.name = name;
+	}
+	
+	public void setEyeCount(int eyeCount)
+	{
+	this.eyeCount = eyeCount;
+	}
+	
+	public void setAntennaCount(double antennaCount)
+	{
+		this.antennaCount = antennaCount; 
+	}
+	
+	public void setHasBellyButton(boolean hasBellyButton)
+	{
+		this.hasBellyButton = hasBellyButton;
+	}
+	
+	public void setArmCount(int armCount)
+	{
+		this.armCount = armCount;
+	}
+	
+	public void setNoseCount(int noseCount)
+	{
+		this.noseCount = noseCount;
+	}
 }
+
+
+
