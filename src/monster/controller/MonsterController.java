@@ -37,17 +37,53 @@ public class MonsterController
 //		System.out.println(firstMonster);
 //		}
 		
-		System.out.println("What is my name again?");
-		String answer = keyboardInput.nextLine();
+	
 		
-		if (answer.equalsIgnoreCase ("Jimbo"))
-		{
-			System.out.println("Oh yeah thats right its Jimbo!");
+		monsterDecisions();
+		
+		loopmonster();
+		
 		}
-		else 
+		
+		private void monsterDecisions()
 		{
-			System.out.println("Will I ever know my real name? :(");
+			System.out.println("What is my name again?");
+			String answer = keyboardInput.nextLine();
+			
+			if (answer.equalsIgnoreCase ("Jimbo"))
+			{
+				System.out.println("Oh yeah thats right its Jimbo!");
+			}
+			else 
+			{
+				System.out.println("Will I ever know my real name? :(");
+			}
 		}
-//		System.out.println(firstMonster);
-}
+		
+		
+		private void loopmonster()
+		{
+//			define a variable for condition/test
+		int numberOfTimes = 0;
+		while(numberOfTimes < 1000)
+		{
+//			code to do
+			System.out.print(" First monster words " + firstMonster);
+			
+//			Code to change viable for condition
+			numberOfTimes++;
+		}
+		
+		 for(int count = 0; count <20; count++)
+		 {
+			 System.out.println("First monster words" + firstMonster);
+		 }
+		
+		
+		for(int count = 0; count <10; count++)
+		{
+			System.out.println("while loops are just the best");
+		}
+		
+		}
 	}
